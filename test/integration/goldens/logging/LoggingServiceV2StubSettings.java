@@ -625,7 +625,7 @@ public class LoggingServiceV2StubSettings extends StubSettings<LoggingServiceV2S
       builder.setTransportChannelProvider(defaultTransportChannelProvider());
       builder.setCredentialsProvider(defaultCredentialsProviderBuilder().build());
       builder.setInternalHeaderProvider(defaultApiClientHeaderProviderBuilder().build());
-      builder.setEndpoint(getDefaultEndpoint());
+      builder.setOverridableEndpoint(getDefaultEndpoint());
 
       return initDefaults(builder);
     }

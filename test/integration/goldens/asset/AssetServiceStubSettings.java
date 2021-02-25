@@ -622,7 +622,7 @@ public class AssetServiceStubSettings extends StubSettings<AssetServiceStubSetti
       builder.setTransportChannelProvider(defaultTransportChannelProvider());
       builder.setCredentialsProvider(defaultCredentialsProviderBuilder().build());
       builder.setInternalHeaderProvider(defaultApiClientHeaderProviderBuilder().build());
-      builder.setEndpoint(getDefaultEndpoint());
+      builder.setOverridableEndpoint(getDefaultEndpoint());
 
       return initDefaults(builder);
     }

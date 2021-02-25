@@ -370,7 +370,7 @@ public class MetricsServiceV2StubSettings extends StubSettings<MetricsServiceV2S
       builder.setTransportChannelProvider(defaultTransportChannelProvider());
       builder.setCredentialsProvider(defaultCredentialsProviderBuilder().build());
       builder.setInternalHeaderProvider(defaultApiClientHeaderProviderBuilder().build());
-      builder.setEndpoint(getDefaultEndpoint());
+      builder.setOverridableEndpoint(getDefaultEndpoint());
 
       return initDefaults(builder);
     }

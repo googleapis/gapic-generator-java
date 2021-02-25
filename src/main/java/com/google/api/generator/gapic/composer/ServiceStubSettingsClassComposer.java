@@ -1656,7 +1656,7 @@ public class ServiceStubSettingsClassComposer implements ClassComposer {
     bodyExprs.add(
         MethodInvocationExpr.builder()
             .setExprReferenceExpr(builderVarExpr)
-            .setMethodName("setEndpoint")
+            .setMethodName("setOverridableEndpoint")
             .setArguments(
                 MethodInvocationExpr.builder().setMethodName("getDefaultEndpoint").build())
             .build());

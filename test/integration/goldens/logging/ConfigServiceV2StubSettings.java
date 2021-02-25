@@ -791,7 +791,7 @@ public class ConfigServiceV2StubSettings extends StubSettings<ConfigServiceV2Stu
       builder.setTransportChannelProvider(defaultTransportChannelProvider());
       builder.setCredentialsProvider(defaultCredentialsProviderBuilder().build());
       builder.setInternalHeaderProvider(defaultApiClientHeaderProviderBuilder().build());
-      builder.setEndpoint(getDefaultEndpoint());
+      builder.setOverridableEndpoint(getDefaultEndpoint());
 
       return initDefaults(builder);
     }
