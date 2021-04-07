@@ -946,7 +946,7 @@ public class ServiceStubSettingsClassComposer implements ClassComposer {
     credsProviderBuilderExpr =
         MethodInvocationExpr.builder()
             .setExprReferenceExpr(credsProviderBuilderExpr)
-            .setMethodName("setScopesToApply")
+            .setMethodName("setDefaultScopes")
             .setArguments(DEFAULT_SERVICE_SCOPES_VAR_EXPR)
             .setReturnType(returnType)
             .build();
